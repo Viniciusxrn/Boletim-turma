@@ -10,7 +10,7 @@ def test_aprovado():
     assert situacao(7.0) == "Aprovado"
 
 def test_recuperacao():
-    assert situacao(5.5) == "Recuperação"
+    assert situacao(5.5) == "Recuperacao"
     
 def test_reprovado():
     assert situacao(4.9) == "Reprovado"
