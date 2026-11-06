@@ -1,11 +1,11 @@
-def calcular_media(av1,av2,av3):
-    return round((av1+ av2 + av3) / 3 , 1)
+def calcular_media(av1, av2, av3):
+    return round((av1 + av2 + av3) / 3, 1)
 
 
-def situacao(media) :
+def situacao(media):
     if media >= 7:
-        return "APROVADO !"
+        return "Aprovado"
     elif media >= 5:
-        return "REPROVADO !"
+        return "Recuperacao"
     else:
-        return "RECUPERACAO"
+        return "Reprovado"
