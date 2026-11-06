@@ -8,4 +8,4 @@ def situacao(media) :
     elif media >= 5:
         return "REPROVADO !"
     else:
-        return "RECUPERAÇÃO"
+        return "RECUPERACAO"
